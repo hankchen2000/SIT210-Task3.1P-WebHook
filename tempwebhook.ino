@@ -11,10 +11,10 @@ void loop() {
 
   String temp = String(random(0, 100));
   Particle.publish("temp", temp, PRIVATE);
-  delay(3000);               // Wait for 30 seconds
+  delay(3000);               // Wait for 3 seconds
 
   digitalWrite(led, LOW);    // Turn OFF the LED
-  delay(3000);               // Wait for 30 seconds
+  delay(3000);               // Wait for 3 seconds
   
   
 
